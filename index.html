@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Центр автопокраски</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <a href="index.html" class="logo">
+                    <img src="img/content/logo.svg" alt="logo" class="logo__img">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__links">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Услуги</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Примеры работ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="header__contact">
+                    <svg class="advantages__img" width="11" height="15" viewBox="0 0 11 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.50008 0C2.4626 0 0 2.39701 0 5.35392C0 8.81536 4.58335 15 5.50008 15C6.41696 15 11 8.81536 11 5.35392C11 2.39701 8.53771 0 5.50008 0ZM5.50008 8.36948C3.78067 8.36948 2.38651 7.01237 2.38651 5.33865C2.38651 3.66479 3.78067 2.30783 5.50008 2.30783C7.21979 2.30783 8.61364 3.66494 8.61364 5.33865C8.61364 7.01222 7.21979 8.36948 5.50008 8.36948Z"
+                                    fill="white" />
+                            </svg>
+                    <p class="location">Москва, Ленинградское шоссе 29-35</p>
+                    <a href="tel:+79017041344" class="tel">+7 (901) 704-13-44</a>
+                </address>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__main">
+                        <h1 class="title">
+                            Кузовной ремонт <br>
+                            любой сложности
+                        </h1>
+                        <p class="subtitle">
+                            на Ленинградском шоссе в Москве
+                        </p>
+                        <div class="hero__btns">
+                            <button class="btn btn_theme_white">Оставить заявку</button>
+                            <button class="btn btn_theme_white">Оценить стоимоть ремонта по фото</button>
+                        </div>
+                        <p class="hero__call-to-action">
+                            Оставляйте заявку сейчас и получите <span>10 % скидку</span>   на покраску
+                        </p>
+                    </div>
+                    <ul class="advantegs">
+                        <li class="advantege advantage__theme_transparent hero__advantege">
+                            <svg class="advantage__img" width="23" height="30" viewBox="0 0 23 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.605 11.2102C22.7601 11.0051 22.8732 10.7704 22.9377 10.52C23.0022 10.2695 23.0168 10.0084 22.9806 9.75205C22.9444 9.49573 22.8581 9.24943 22.7269 9.02772C22.5957 8.80602 22.4222 8.61342 22.2167 8.46134L21.4126 7.86611C21.1474 7.66998 20.9366 7.40719 20.8005 7.10331C20.6644 6.79942 20.6078 6.46479 20.636 6.13195L20.7211 5.12192C20.7443 4.86312 20.7162 4.6022 20.6384 4.35471C20.5607 4.10722 20.4349 3.87824 20.2685 3.68141C20.1021 3.48459 19.8986 3.32395 19.67 3.20908C19.4415 3.09422 19.1926 3.02747 18.9382 3.01282L17.9457 2.95658C17.6188 2.93759 17.3022 2.83265 17.0269 2.65197C16.7515 2.47129 16.5266 2.22101 16.3742 1.92546L15.9147 1.02792C15.7955 0.799009 15.6325 0.596842 15.4353 0.433404C15.2381 0.269966 15.0107 0.148585 14.7667 0.0764618C14.5226 0.004338 14.2668 -0.0170604 14.0145 0.0135356C13.7622 0.0441317 13.5185 0.126099 13.2978 0.254576L12.4339 0.753732C12.1487 0.91845 11.8266 1.00503 11.4989 1.00503C11.1711 1.00503 10.849 0.91845 10.5638 0.753732L9.6999 0.254576C9.47877 0.126828 9.23473 0.0456845 8.98227 0.0159597C8.72981 -0.0137651 8.47407 0.00853441 8.23022 0.0815353C7.98637 0.154536 7.75937 0.276751 7.56271 0.44093C7.36604 0.605108 7.20371 0.807905 7.08534 1.03729L6.62584 1.93483C6.47336 2.23038 6.2485 2.48066 5.97313 2.66134C5.69776 2.84202 5.38124 2.94696 5.05434 2.96595L4.06182 3.02219C3.80743 3.03684 3.55854 3.10359 3.32999 3.21846C3.10144 3.33333 2.89791 3.49396 2.73153 3.69079C2.56515 3.88761 2.43933 4.11659 2.36157 4.36408C2.28382 4.61157 2.25572 4.87249 2.27895 5.1313L2.36396 6.14133C2.39224 6.47416 2.33558 6.8088 2.1995 7.11268C2.06342 7.41656 1.85255 7.67935 1.5874 7.87548L0.783271 8.47072C0.577773 8.6228 0.404282 8.81539 0.273072 9.0371C0.141862 9.2588 0.0556003 9.5051 0.019395 9.76142C-0.0168104 10.0177 -0.00222338 10.2789 0.0622925 10.5293C0.126808 10.7798 0.239941 11.0145 0.394992 11.2196L1.00153 12.021C1.20174 12.2853 1.3315 12.5979 1.3782 12.9285C1.4249 13.2591 1.38695 13.5963 1.26805 13.9075L0.907336 14.8449C0.815127 15.0861 0.771306 15.3438 0.778466 15.6026C0.785626 15.8614 0.843622 16.1162 0.949021 16.3517C1.05442 16.5873 1.20508 16.7989 1.39208 16.974C1.57908 17.1491 1.79862 17.2841 2.03771 17.3711L2.9728 17.7109C3.28153 17.8229 3.55658 18.0145 3.77117 18.267C3.98577 18.5196 4.1326 18.8245 4.19737 19.1522L4.37657 20.0427L1.98946 27.9565L5.77576 26.7473L8.133 30L10.2858 22.822C10.608 23.0948 11.0096 23.2512 11.4281 23.2669C11.8466 23.2826 12.2584 23.1567 12.5994 22.9087L14.8647 30L17.2219 26.7473L21.0082 27.9565L18.5637 20.3075C18.5798 20.2536 18.5936 20.202 18.605 20.1458L18.8003 19.1522C18.8651 18.8245 19.0119 18.5196 19.2265 18.267C19.4411 18.0145 19.7162 17.8229 20.0249 17.7109L20.96 17.3711C21.1991 17.2841 21.4186 17.1491 21.6056 16.974C21.7926 16.7989 21.9433 16.5873 22.0487 16.3517C22.1541 16.1162 22.2121 15.8614 22.2192 15.6026C22.2264 15.3438 22.1826 15.0861 22.0904 14.8449L21.7297 13.9075C21.6108 13.5963 21.5728 13.2591 21.6195 12.9285C21.6662 12.5979 21.796 12.2853 21.9962 12.021L22.605 11.2102ZM4.93946 11.6367C4.93946 10.3135 5.32417 9.0199 6.04492 7.91965C6.76568 6.81939 7.79011 5.96185 8.98868 5.45545C10.1873 4.94906 11.5061 4.81657 12.7785 5.07472C14.0509 5.33288 15.2197 5.97009 16.137 6.90578C17.0544 7.84147 17.6791 9.03362 17.9322 10.3315C18.1853 11.6293 18.0554 12.9745 17.5589 14.1971C17.0625 15.4196 16.2217 16.4645 15.1431 17.1997C14.0644 17.9349 12.7962 18.3273 11.4989 18.3273C9.75975 18.3254 8.09241 17.6199 6.86268 16.3656C5.63295 15.1113 4.94129 13.4106 4.93946 11.6367Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="advantages__desc">гарантия 1 год</p>
+                        </li>
+                        <li class="advantege advantage__theme_transparent hero__advantege">
+                            <svg class="advantages__img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.89486 7.35546L0.0693737 2.68003L1.95303 0.809852L6.66219 3.61511V5.48529L11.5059 10.2943V10.6951L9.75677 12.2981L4.77852 7.35546H2.89486ZM23.0769 18.7101H22.0006C21.0587 18.7101 20.2514 18.5765 19.4442 18.4429L16.6187 21.6489L22.9424 28.7289C24.4224 30.3319 26.9788 30.4655 28.4588 28.8625C30.0734 27.2594 29.9388 24.8549 28.3243 23.3855L23.0769 18.7101ZM27.6515 13.6339C29.8043 11.4966 30.477 8.29055 29.6698 5.48529C29.5352 4.95095 28.8625 4.81737 28.5934 5.21812L23.8842 9.89355L20.1169 6.1532L24.826 1.47777C25.2297 1.07702 25.0951 0.542684 24.557 0.4091C21.7315 -0.525986 18.5023 0.141933 16.3496 2.41286C13.9277 4.81737 13.3895 8.55771 14.735 11.4966L1.2803 23.3855C-0.334268 24.8549 -0.468816 27.393 1.14575 28.8625C2.76032 30.4655 5.18217 30.3319 6.66219 28.7289L18.6369 15.3705C21.5969 16.7063 25.2297 16.172 27.6515 13.6339Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="advantage__desc">делаем как для себя, качественно и без переплат</p>
+                        </li>
+                        <li class="advantege advantage__theme_transparent hero__advantege">
+                            <svg class="advantages__img" width="30" height="30" viewBox="0 0 11 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.50008 0C2.4626 0 0 2.39701 0 5.35392C0 8.81536 4.58335 15 5.50008 15C6.41696 15 11 8.81536 11 5.35392C11 2.39701 8.53771 0 5.50008 0ZM5.50008 8.36948C3.78067 8.36948 2.38651 7.01237 2.38651 5.33865C2.38651 3.66479 3.78067 2.30783 5.50008 2.30783C7.21979 2.30783 8.61364 3.66494 8.61364 5.33865C8.61364 7.01222 7.21979 8.36948 5.50008 8.36948Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="advantage__desc">салон расположен в пределах МКАД</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container about__container">
+                    <h2 class="servis-title section-title_color_grey">подробнее о центре автопокраски</h2>
+                    <p class="section__subtitle about__subtitle">
+                        полное или частичное востоновление ЛКП за короткие сроки и с гарантией качества
+                    </p>
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Cumque nemo deserunt iste illo fugit neque corrupti reprehenderit libero magni suscipit,
+                                ratione ea velit atque ad.
+                            </p>
+                        </li>
+                        <li class="about__item">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Cumque nemo deserunt iste illo fugit neque corrupti reprehenderit libero magni suscipit,
+                                ratione ea velit atque ad.
+                            </p>
+                        </li>
+                        <li class="about__item">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Cumque nemo deserunt iste illo fugit neque corrupti reprehenderit libero magni suscipit,
+                                ratione ea velit atque ad.
+                            </p>
+                        </li>
+                        <li class="about__item">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Cumque nemo deserunt iste illo fugit neque corrupti reprehenderit libero magni suscipit,
+                                ratione ea velit atque ad.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+<section class="profit">
+    <div class="container__profit">
+        <div class="section-titlest">
+                Выгоды
+        </div>
+        <div class="section-title_colors_grey">
+            ваш автомобиль будет блестеть  как после покупкиы,  а вы будете довольны выбором
+        </div>
+        <ul class="food__list">
+            <li class="food__item dish">
+                <div class="dish__img-wrap">
+                    <img src="img/bg/Снимокk.PNG"alt="" class="dish__img">
+                </div>
+                <div class="dish__desc">
+                    
+                    <div class="dish__text paragraph">удобнаялокция на <br>
+                         ленинградском шоссе</div>
+                </div>
+            </li>
+            <li class="food__item dish">
+                <div class="dish__img-wrap">
+                    <img src="img/bg/Снимокkk.PNG" alt="" class="dish__img">
+                </div>
+                <div class="dish__desc">
+                    
+                    <div class="dish__text paragraph">осмотр автомобиля <br>
+                         производится бесплатно</div>
+                </div>
+            </li>
+            <li class="food__item dish">
+                <div class="dish__img-wrap">
+                    <img src="img/bg/Снимокkkk.PNG" alt="" class="dish__img">
+                </div>
+                <div class="dish__desc">
+                    
+                    <div class="dish__text paragraph">для вашего удобства <br> 
+                        возможен наличный и <br>
+                         без наличный расчот</div>
+                </div>
+            </li>
+            <li class="food__item dish">
+                <div class="dish__img-wrap">
+                    <img src="img/bg/Снимок.kkkkPNG.PNG" alt="" class="dish__img">
+                </div>
+                <div class="dish__desc">
+                    
+                    <div class="dish__text paragraph"> роботаем по заказ- <br>
+                        наряду с <br>
+                         предоставлением<br>
+                          гарантийных<br>
+                           обязательств</div>
+                </div>
+            </li>
+            <li class="food__item dish">
+                <div class="dish__img-wrap">
+                    <img src="img/bg/Снимокkkkkk.PNG" alt="" class="dish__img">
+                </div>
+                <div class="dish__desc">
+
+                    <div class="dish__text paragraph">для юридических лиц<br>
+                         возможна оплата на<br>
+                          расчотный счет</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+            <section class="services"> 
+                <div class="container services__container height"> 
+                        <div class="services__content height"> 
+                                <div class="services__content-text"> 
+                                        <div class="servis-title section-title_color_grey">Услуги</div> 
+                                        <div class="section-subtitle services__subtitle">Помимо нанесения лакокрасочных покрытий вы можете получить услуги по <br> 
+                                            ремонту и вернуть своей "ласточке" заводской вид</div> 
+                                </div> 
+                                <div class="services__content-info"> 
+                                        <ul class="services__content-info-list"> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/car1.png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Замена деталей</div> 
+                                                        </a> 
+                                                </li> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/Mask group (4).png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Полировка</div> 
+                                                        </a> 
+                                                </li> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/Mask group (5).png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Исправление вмятин</div> 
+                                                        </a> 
+                                                </li> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/Mask group (6).png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Чистка (мойка)</div> 
+                                                        </a> 
+                                                </li> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/Mask group (13).png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Ремонт бамперов</div> 
+                                                        </a> 
+                                                </li> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/Mask group (11).png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Сбор-разбор</div> 
+                                                        </a> 
+                                                </li> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/Mask group (8).png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Съём</div> 
+                                                        </a> 
+                                                </li> 
+                                                <li class="services__content-info-item"> 
+                                                        <a class="services__content-info-link-block" href="#"> 
+                                                                <div class="services__content-info-wrap"> 
+                                                                        <img class="services__content-info-wrap-img" src="img/bg/Mask group (9).png"> 
+                                                                </div> 
+                                                                <div class="services__content-info-text">Покраска</div> 
+                                                        </a> 
+                                                </li> 
+                                        </ul> 
+                                </div> 
+                                <div class="services__content-btn-block"> 
+                                        <button class="services__content-btn">Подробнее</button> 
+                                </div> 
+                        </div> 
+                </div> 
+        </section>
+
+<section class="reviews">
+    <div class="container__reviews">
+        <div class="klient">
+        Отзывы клиентов
+    </div>
+    <p class="reviews__masters section-title_color_grey">
+        посмотрите на отзывы тех,кто уже обращался в нашу мастерскую
+    </p>
+    <ul class="reviews__img">
+        <li class="reviews__img_list">
+            <img src="img/bg/Снимок4.PNG" class="reviewsss" alt="">
+        </li>
+        <li class="reviews__img_list">
+            <img src="img/bg/отзыв4.png" class="reviewss" alt="">
+        </li>
+  
+    </ul>
+    </div>
+    <div class="black__background"></div>
+</section>
+
+            <section class="examples">
+                <div class="container">
+                    <div class="servis-title section-title_color_grey">
+                        примеры робот
+                    </div>
+                    <p class="section__subtitle about__subtitle">
+                        наша автомастерская - это семейный бизнес, по этому мы делаем все как для себя. <br>
+                       Качественно. На долго. Без переплат. посмотрите премеры выполненных робот, <br>
+                       чтобы быть увериным в надежности специалистов, в руки которых вы передодите автомобиль
+                    </p>
+                    <ul class="examples__list">
+                        <li class="examples__item">
+                            <div class="examples__img__wrap">
+                                <img src="img/bg/Mask group (6).jpg" alt="">
+                                <img src="img/bg/Mask group (1).jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="examples__item">
+                            <div class="examples__img__wrap">
+                                <img src="img/bg/Mask group (4).jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="examples__item">
+                            <div class="examples__img__wrap">
+                                <img src="img/bg/Mask group (3).jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="examples__item">
+                            <div class="examples__img__wrap">
+                                <img src="img/bg/Mask group (5).jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="services__content-btn-block"> 
+                    <button class="services__content-btn">Подробнее</button> 
+            </div>
+            </section>
+
+            <section class="map"> 
+                <div class="container height"> 
+                        <div class="map__content height"> 
+                                <div class="map__content-text"> 
+                                        Испытайте снова ту радость, когда вы только купили блестящую  
+                                        машинку в салоне! Качественный покрас и ремонт автомобиля  
+                                        - это отличный вариант обновить авто без покупки нового 
+                                </div> 
+                                <div class="map__content-info"> 
+                                        <div class="map__content-info-faile"> 
+                                                <div class="map__content-info-faile-text"> 
+                                                        Вы можете добавить фото для оценки <br> 
+                                                        стоимости ремонта через форму 
+                                                </div> 
+                                                <button class="map__content-info-faile-btn"><span class="FaileNot">Добавить фаил</span> <span class="FaileYes">Фаил добавлен</span> 
+                                                        <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.328 0.712117C12.7012 1.09263 12.7012 1.70189 12.328 2.08241L5.28945 9.25812C4.88985 9.66551 4.23366 9.66551 3.83406 9.25812L0.672044 6.03446C0.298804 5.65394 0.298804 5.04469 0.672044 4.66417C1.05561 4.27312 1.68547 4.27312 2.06905 4.66417L4.56176 7.20548L10.931 0.712117C11.3145 0.321069 11.9444 0.321069 12.328 0.712117Z" fill="white"/> 
+                                                        </svg> 
+                                                </button> 
+                                        </div> 
+                                        <div class="map__content-info-order"> 
+                                                <input class="map__content-info-order-input" type="text" name="name" placeholder="Ваше имя"> 
+                                                <input class="map__content-info-order-input" type="tell" name="tell" placeholder="8-999-999-99-99"> 
+                                                <button class="map__content-info-order-btn">Заказать звонок</button> 
+                                        </div> 
+                                </div> 
+                        </div> 
+                </div>  
+                <div class="black__background"></div> 
+        </section>
+        <section class="place">
+            <div class="menu">
+                        <a href="index.html" >
+                            <img src="img/content/logo.svg" alt="" class="logotip__img">
+                        </a>
+                <address class="header__contacts">
+                    <svg class="advantages__img" width="11" height="15" viewBox="0 0 11 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.50008 0C2.4626 0 0 2.39701 0 5.35392C0 8.81536 4.58335 15 5.50008 15C6.41696 15 11 8.81536 11 5.35392C11 2.39701 8.53771 0 5.50008 0ZM5.50008 8.36948C3.78067 8.36948 2.38651 7.01237 2.38651 5.33865C2.38651 3.66479 3.78067 2.30783 5.50008 2.30783C7.21979 2.30783 8.61364 3.66494 8.61364 5.33865C8.61364 7.01222 7.21979 8.36948 5.50008 8.36948Z"
+                                    fill="white" />
+                            </svg>
+                    <p class="texti">Москва, Ленинградское шоссе 29-35</p>
+                    <p class="texti">Юр.реквизиты</p>
+                    <p class="texti">ИНН 026601687198 <br>
+                                        ОГРН 322774600628427</p>
+                    <a href="tel:+79017041344" class="tels">+7 (901) 704-13-44 <br>
+                                                            +7 (916) 780-22-59
+                    </a>
+                </address>
+            </div>
+        </section>
+                
+            
+        
+        </main>
+    </div>
+</body>
+
+</html>
